@@ -1,0 +1,6 @@
+@MyApi_HostAddress = http://localhost:5000
+
+GET {{MyApi_HostAddress}}/GetById/1
+Accept: application/json
+
+###

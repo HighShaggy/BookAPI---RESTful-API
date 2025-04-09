@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\void\\source\\repos\\BookApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8A388AC-8C87-4549-0DB5-CF944C07AA01}|BookApi.csproj|c:\\users\\void\\source\\repos\\bookapi\\bookapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D8A388AC-8C87-4549-0DB5-CF944C07AA01}|BookApi.csproj|solutionrelative:bookapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E9E691-4056-4D5F-A070-38E924740431}|..\\BookApi.Data\\BookApi.Data.csproj|c:\\users\\void\\source\\repos\\bookapi.data\\bookapi.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E9E691-4056-4D5F-A070-38E924740431}|..\\BookApi.Data\\BookApi.Data.csproj|c:\\users\\void\\source\\repos\\bookapi.data\\bookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8A388AC-8C87-4549-0DB5-CF944C07AA01}|BookApi.csproj|c:\\users\\void\\source\\repos\\bookapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8A388AC-8C87-4549-0DB5-CF944C07AA01}|BookApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8A388AC-8C87-4549-0DB5-CF944C07AA01}|BookApi.csproj|c:\\users\\void\\source\\repos\\bookapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8A388AC-8C87-4549-0DB5-CF944C07AA01}|BookApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8A388AC-8C87-4549-0DB5-CF944C07AA01}|BookApi.csproj|c:\\users\\void\\source\\repos\\bookapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8A388AC-8C87-4549-0DB5-CF944C07AA01}|BookApi.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E9E691-4056-4D5F-A070-38E924740431}|..\\BookApi.Data\\BookApi.Data.csproj|c:\\users\\void\\source\\repos\\bookapi.data\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E9E691-4056-4D5F-A070-38E924740431}|..\\BookApi.Data\\BookApi.Data.csproj|c:\\users\\void\\source\\repos\\bookapi.data\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E9E691-4056-4D5F-A070-38E924740431}|..\\BookApi.Data\\BookApi.Data.csproj|c:\\users\\void\\source\\repos\\bookapi.data\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\void\\source\\repos\\BookApi\\BookApi.Data\\BookContextFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookApi.Data\\BookContextFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookApi.csproj",
+              "DocumentMoniker": "C:\\Users\\void\\Source\\Repos\\BookApi\\BookApi.csproj",
+              "RelativeDocumentMoniker": "BookApi.csproj",
+              "ToolTip": "C:\\Users\\void\\Source\\Repos\\BookApi\\BookApi.csproj",
+              "RelativeToolTip": "BookApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-09T17:17:12.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\void\\source\\repos\\BookApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\void\\source\\repos\\BookApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-09T17:01:59.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookApi.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\void\\Source\\Repos\\BookApi.Data\\BookApi.Data.csproj",
+              "RelativeDocumentMoniker": "..\\BookApi.Data\\BookApi.Data.csproj",
+              "ToolTip": "C:\\Users\\void\\Source\\Repos\\BookApi.Data\\BookApi.Data.csproj",
+              "RelativeToolTip": "..\\BookApi.Data\\BookApi.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-09T16:53:14.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\void\\source\\repos\\BookApi\\BookApi.Data\\BookContextFactory.cs",
+              "RelativeDocumentMoniker": "BookApi.Data\\BookContextFactory.cs",
+              "ToolTip": "C:\\Users\\void\\source\\repos\\BookApi\\BookApi.Data\\BookContextFactory.cs",
+              "RelativeToolTip": "BookApi.Data\\BookContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T16:42:08.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\void\\source\\repos\\BookApi.Data\\Interfaces\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "..\\BookApi.Data\\Interfaces\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\void\\source\\repos\\BookApi.Data\\Interfaces\\IBookRepository.cs",
+              "RelativeToolTip": "..\\BookApi.Data\\Interfaces\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T15:40:17.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\void\\source\\repos\\BookApi.Data\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "..\\BookApi.Data\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\void\\source\\repos\\BookApi.Data\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "..\\BookApi.Data\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T15:37:51.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\void\\source\\repos\\BookApi.Data\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "..\\BookApi.Data\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\void\\source\\repos\\BookApi.Data\\Models\\Book.cs",
+              "RelativeToolTip": "..\\BookApi.Data\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T15:37:48.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookContext.cs",
+              "DocumentMoniker": "C:\\Users\\void\\source\\repos\\BookApi.Data\\BookContext.cs",
+              "RelativeDocumentMoniker": "..\\BookApi.Data\\BookContext.cs",
+              "ToolTip": "C:\\Users\\void\\source\\repos\\BookApi.Data\\BookContext.cs",
+              "RelativeToolTip": "..\\BookApi.Data\\BookContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T15:23:50.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\void\\source\\repos\\BookApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\void\\source\\repos\\BookApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T14:37:58.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\void\\source\\repos\\BookApi\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\void\\source\\repos\\BookApi\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T14:25:32.623Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
