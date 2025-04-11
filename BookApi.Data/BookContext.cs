@@ -5,10 +5,9 @@ namespace BookApi.Data
     {
         public DbSet<Book> Books { get; set; }
 
-        public BookContext(DbContextOptions<BookContext> options)
-       : base(options)
-        {
-        }
+        public BookContext() { }
+
+        public BookContext(DbContextOptions<BookContext> options) : base(options) { } 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)

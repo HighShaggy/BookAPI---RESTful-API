@@ -5516,32 +5516,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/void/.nuget/packages/": {}
+    "C:\\Users\\void\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/void/Work/newbook/BookApi/BookApi.csproj",
+      "projectUniqueName": "C:\\Users\\void\\source\\repos\\newbook\\BookApi\\BookApi.csproj",
       "projectName": "BookApi",
-      "projectPath": "/Users/void/Work/newbook/BookApi/BookApi.csproj",
-      "packagesPath": "/Users/void/.nuget/packages/",
-      "outputPath": "/Users/void/Work/newbook/BookApi/obj/",
+      "projectPath": "C:\\Users\\void\\source\\repos\\newbook\\BookApi\\BookApi.csproj",
+      "packagesPath": "C:\\Users\\void\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\void\\Source\\Repos\\newbook\\BookApi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/void/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\void\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/void/Work/newbook/BookApi.Data/BookApi.Data.csproj": {
-              "projectPath": "/Users/void/Work/newbook/BookApi.Data/BookApi.Data.csproj"
+            "C:\\Users\\void\\source\\repos\\newbook\\BookApi.Data\\BookApi.Data.csproj": {
+              "projectPath": "C:\\Users\\void\\source\\repos\\newbook\\BookApi.Data\\BookApi.Data.csproj"
             }
           }
         }
@@ -5604,7 +5611,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
