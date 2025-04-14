@@ -16,7 +16,7 @@ namespace BookApi.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.4");
 
-            modelBuilder.Entity("BookApi.Book", b =>
+            modelBuilder.Entity("BookApi.Data.Models.Book", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -50,6 +50,30 @@ namespace BookApi.Data.Migrations
                             Id = 3,
                             Author = "Михаил Булгаков",
                             Title = "Мастер и Маргарита"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Author = "Михаил Шолохов",
+                            Title = "Тихий Дон"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Author = "Чарльз Петцольд",
+                            Title = "КОД: Тайный язык информатики"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Author = "Дэн Браун",
+                            Title = "код да Винчи"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Author = "Роберт Мартин",
+                            Title = "Чистый код"
                         });
                 });
 #pragma warning restore 612, 618
