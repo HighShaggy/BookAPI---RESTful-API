@@ -792,3 +792,5 @@ C:/Users/void/Source/Repos/newbook/BookApi/obj/Debug/net9.0/BookApi.sourcelink.j
 /Users/void/RiderProjects/newbook/BookApi/obj/Debug/net9.0/BookApi.pdb
 /Users/void/RiderProjects/newbook/BookApi/obj/Debug/net9.0/BookApi.genruntimeconfig.cache
 /Users/void/RiderProjects/newbook/BookApi/obj/Debug/net9.0/ref/BookApi.dll
+/Users/void/RiderProjects/newbook/BookApi/bin/Debug/net9.0/AutoMapper.dll
+/Users/void/RiderProjects/newbook/BookApi/bin/Debug/net9.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

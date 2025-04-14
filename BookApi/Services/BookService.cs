@@ -31,19 +31,19 @@ public class BookService(IBookRepository _bookRepository)
         }
     }
 
-    public async Task<IActionResult> GetByIdAsync(int id)
+    public async Task<Book> GetByIdAsync(int id)
     {
         var book = await _bookRepository.GetById(id);
-        return book != null
-            ? new OkObjectResult(book)
-            : new NotFoundResult();
+        if (book !=null)
+        {
+            return book;
+        }
+        else throw new Exception("Book not found");
     }
-    
-    public ActionResult<IEnumerable<Book>> GetAll(int page, string search)
+
+    public async Task<IEnumerable<Book>> GetAll(int page, string search)
     {
         var books = _bookRepository.GetAllAsync(page, search);
-        return books != null
-            ? new OkObjectResult(books)
-            : new NotFoundResult();
+        return await books;
     }
 }

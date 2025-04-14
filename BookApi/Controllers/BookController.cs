@@ -1,3 +1,4 @@
+using AutoMapper;
 using BookApi.Data.Models;
 using BookApi.Data.Interfaces;
 using BookApi.Services;
@@ -5,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
 [Route("api")]
-public class BookController(IBookRepository _bookRepository, BookService _bookService) : ControllerBase
+public class BookController(IBookRepository _bookRepository, BookService _bookService, IMapper _mapper) : ControllerBase
 {
     [HttpPut]
     [Route("book")]
@@ -23,16 +24,19 @@ public class BookController(IBookRepository _bookRepository, BookService _bookSe
 
     [HttpGet]
     [Route("book/{id}")]
-    public async Task<IActionResult> GetById(int id)
+    public async Task<BookDto> GetById(int id)
     {
-        return await _bookService.GetByIdAsync(id);
+        var book= await _bookService.GetByIdAsync(id);
+        return _mapper.Map<BookDto>(book);
     }
 
     [HttpGet]
     [Route("book")]
-    public ActionResult<IEnumerable<Book>> GetAll([FromQuery] int page = 1,
+    public async Task<ActionResult<IEnumerable<BookDto>>> GetAll([FromQuery] int page = 1,
         [FromQuery] string? search = null)
     {
-        return _bookService.GetAll(page, search);
+        var books = await _bookService.GetAll(page, search);
+        var bookDtos = _mapper.Map<IEnumerable<BookDto>>(books);
+        return Ok(bookDtos);
     }
 }
