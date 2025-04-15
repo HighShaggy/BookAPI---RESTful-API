@@ -1,11 +1,16 @@
 ﻿using BookApi.Data.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using Microsoft.Win32.SafeHandles;
 
 namespace BookApi.Data
 {
-    public class BookContext : DbContext
+    public class BookContext : IdentityDbContext<User, IdentityRole, string>
     {
         public DbSet<Book> Books { get; set; }
+        public DbSet<User> Users { get; set; }
 
         public BookContext()
         {
@@ -29,6 +34,7 @@ namespace BookApi.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Book>().HasData(
                 new Book { Id = 1, Title = "Война и мир", Author = "Лев Толстой" },
                 new Book { Id = 2, Title = "Преступление и наказание", Author = "Фёдор Достоевский" },

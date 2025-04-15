@@ -794,3 +794,13 @@ C:/Users/void/Source/Repos/newbook/BookApi/obj/Debug/net9.0/BookApi.sourcelink.j
 /Users/void/RiderProjects/newbook/BookApi/obj/Debug/net9.0/ref/BookApi.dll
 /Users/void/RiderProjects/newbook/BookApi/bin/Debug/net9.0/AutoMapper.dll
 /Users/void/RiderProjects/newbook/BookApi/bin/Debug/net9.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/void/RiderProjects/newbook/BookApi/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/void/RiderProjects/newbook/BookApi/bin/Debug/net9.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/void/RiderProjects/newbook/BookApi/bin/Debug/net9.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/void/RiderProjects/newbook/BookApi/bin/Debug/net9.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/void/RiderProjects/newbook/BookApi/bin/Debug/net9.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/void/RiderProjects/newbook/BookApi/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/void/RiderProjects/newbook/BookApi/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Users/void/RiderProjects/newbook/BookApi/bin/Debug/net9.0/Microsoft.Extensions.Identity.Core.dll
+/Users/void/RiderProjects/newbook/BookApi/bin/Debug/net9.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/void/RiderProjects/newbook/BookApi/bin/Debug/net9.0/BCrypt.Net.dll
