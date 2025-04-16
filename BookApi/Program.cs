@@ -27,8 +27,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         {
             ValidateIssuerSigningKey = true,
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])),
-            ValidateIssuer = false, // Для разработки можно отключить
-            ValidateAudience = false, // Для разработки можно отключить
             ValidateLifetime = true,
             ClockSkew = TimeSpan.Zero
         };
@@ -40,9 +38,15 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new() { Title = "Book API", Version = "v1" });
 });
-
+builder.Services.AddCors(options => {
+    options.AddPolicy("AllowReact", policy => {
+        policy.WithOrigins("http://localhost:3000") // Порт React
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
 var app = builder.Build();
-
+app.UseCors("AllowReact");
 using (var scope = app.Services.CreateScope())
 {
     await DataInitializer.InitializeAsync(scope.ServiceProvider);

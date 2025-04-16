@@ -44,6 +44,7 @@ public class BookService(IBookRepository _bookRepository)
     public async Task<IEnumerable<Book>> GetAll(int page, string search)
     {
         var books = _bookRepository.GetAllAsync(page, search);
+
         return await books;
     }
 }

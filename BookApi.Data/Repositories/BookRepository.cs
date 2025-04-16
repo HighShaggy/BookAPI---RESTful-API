@@ -26,7 +26,7 @@ namespace BookApi.Data.Repositories
         }
         public async Task<Book> GetById(int id)
         {
-            var book = await _booksContext.Books.FirstOrDefaultAsync(x => x.Id == id);
+            var book = await _booksContext.Books.Include(b => b.Author).FirstOrDefaultAsync(x => x.Id == id);
             if (book == null)
             {
                 throw new ArgumentException("book not found");
@@ -47,7 +47,7 @@ namespace BookApi.Data.Repositories
         }
         public async Task<IEnumerable<Book>> GetAllAsync(int page=1, string? search = null)
         {
-            var query = _booksContext.Books.AsQueryable();
+            var query = _booksContext.Books.Include(b => b.Author).AsQueryable();
             if (!string.IsNullOrWhiteSpace(search))
             {
                 query = query.Where(b => 
