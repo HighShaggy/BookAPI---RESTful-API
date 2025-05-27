@@ -1,16 +1,11 @@
 using BookApi.Data.Interfaces;
+using BookApi.Data.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace BookApi.Data.Repositories
 {
-    public class BookRepository(BookContext _booksContext) : IBookRepository 
+    public class BookRepository(BookContext _booksContext) : IBookRepository
     {
-        // static List<Book> books = new List<Book>
-        // {
-        //     new Book { Id = 1, Title = "Война и мир", Author = "Лев Толстой" },
-        //     new Book { Id = 2, Title = "Преступление и наказание", Author = "Фёдор Достоевский" },
-        //     new Book { Id = 3, Title = "Мастер и Маргарита", Author = "Михаил Булгаков" }
-        //  };
         public async Task<int> AddAsync(Book book)
         {
             if (book is null)
@@ -29,9 +24,9 @@ namespace BookApi.Data.Repositories
 
             return book.Id;
         }
-        public Book GetById(int id)
+        public async Task<Book> GetById(int id)
         {
-            var book = _booksContext.Books.FirstOrDefault(x => x.Id == id);
+            var book = await _booksContext.Books.Include(b => b.Author).FirstOrDefaultAsync(x => x.Id == id);
             if (book == null)
             {
                 throw new ArgumentException("book not found");
@@ -50,9 +45,18 @@ namespace BookApi.Data.Repositories
             _booksContext.Books.Remove(book);
             await _booksContext.SaveChangesAsync();
         }
-        public async Task<IEnumerable<Book>> GetAllAsync()
+        public async Task<IEnumerable<Book>> GetAllAsync(int page=1, string? search = null)
         {
-            return await _booksContext.Books.ToListAsync();
+            var query = _booksContext.Books.Include(b => b.Author).AsQueryable();
+            if (!string.IsNullOrWhiteSpace(search))
+            {
+                query = query.Where(b => 
+                    EF.Functions.Like(b.Title.ToLower(), $"%{search.ToLower()}%"));
+            } 
+            int itemsPerPage = 5;
+            query = query.Skip((page - 1) * itemsPerPage).Take(itemsPerPage);
+            
+            return await query.ToListAsync();
         }
     }
 
